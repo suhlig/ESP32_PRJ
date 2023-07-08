@@ -42,7 +42,7 @@ uint8_t temprature_sens_read();
 #define BUF_CNT                    8      // Number of buffers in the I2S circular buffer   
 #define SAMPLE_RATE                22050  //22050 //33000  //16000
 #define BITS_PER_SAMPLE            (16)  // 16 or 24  
-#define I2S_MIC_CHANNEL            I2S_CHANNEL_FMT_ONLY_LEFT // most microphones will probably default to left channel but you may need to tie the L/R pin low
+#define I2S_MIC_CHANNEL            I2S_CHANNEL_FMT_ONLY_RIGHT // most microphones will probably default to left channel but you may need to tie the L/R pin low
 #define I2S_MIC_SERIAL_CLOCK       GPIO_NUM_32
 #define I2S_MIC_LEFT_RIGHT_CLOCK   GPIO_NUM_25
 #define I2S_MIC_SERIAL_DATA        GPIO_NUM_33
